@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+#card {
+  width: 350px;
+  height: 460px;
+  background-color: white;
+  margin: auto;
+  border-radius: 5%;
+  margin-top: 50px;
+}
+.num {
+  font-size: 100px;
+  text-align: center;
+  color: black;
+}
+.butt {
+  width: 100px;
+  height: 80px;
+  margin: auto;
+}
+.sign {
+  font-size: 90px;
+  margin-left: 20px;
+}
+.sign2 {
+  float: right;
+  font-size: 90px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  transform: rotate(180deg);
+  margin-top: 55px;
+}
+
+.card.spades,
+.card.clubs {
+  color: black;
+}
+.card.hearts {
+  content: "\2660";
+  color: red;
+}
